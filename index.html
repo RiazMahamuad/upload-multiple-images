@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PopUp design</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <!-- for Icon (fa fa-upload)  --> 
+</head>
+<body>
+   
+    
+<div class="popUpBox">
+    <span class="close">&times;</span>
+    
+        <input type="file" id="file-upload" accept="image/png, image/jpeg, image/jpg" onchange="img()" multiple>
+
+  
+<label for="file-upload">
+    <i class="fa fa-upload"></i>
+    Choose A Photo</label>
+    <p id="num-of-file">No Files Chosen</p>
+    <scrol>
+     <div id="images"></div>
+     
+    </scrol>
+
+   
+</div>
+
+<div class="card" onclick="clickMe()">
+    <h3> click me</h3>
+ </div>
+
+<script src="script.js"></script>
+</body>
+</html>
